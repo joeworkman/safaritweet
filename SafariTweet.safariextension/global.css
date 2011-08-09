@@ -1,0 +1,126 @@
+#tweetFrame {
+	background:transparent !important;
+	border: 0 !important;
+	z-index:1001 !important;
+	position:relative !important;
+	top: 25px !important;
+	left: 9px !important;
+	width: 525px !important;
+	height: 155px !important;
+}
+#tweetOverlay {
+	display: none;
+	position: fixed !important;
+	height: 100% !important;
+	width: 100% !important;
+	top: 0 !important;
+	left: 0 !important;
+	opacity: 0;
+	z-index: 2147483646 !important;
+	-webkit-transition-property: opacity !important;
+	-webkit-transition-duration: 300ms !important;
+}
+#tweetContent {
+	height: 200px !important;
+	width: 550px !important;
+	background:none !important;
+	border: 0 !important;
+}
+#tweetContent body {
+	background: transparent !important;
+	border: 0 !important;
+}
+#tweetContainer {
+	z-index:999 !important;
+	display: none;
+	position: fixed !important;
+	height: 200px !important;
+	width: 550px !important;
+	border-style: solid !important;
+	-webkit-border-radius: 10px !important;
+	-webkit-box-shadow: 0 2px 35px #000 !important;
+	-webkit-transition-property: top !important;
+	-webkit-transition-duration: 650ms !important;
+	z-index: 2147483647 !important;
+	margin-right: auto;
+	margin-left: auto;
+}
+#tweetOverlayText {
+	color: #a8a8a8 !important;
+	letter-spacing: 1px !important;
+	font-weight: normal !important;
+	font-style: normal !important;
+}
+#tweetOverlayText a {
+	text-decoration: none !important;
+	color: #a8a8a8 !important;
+}
+#tweetOverlayText1 {
+	background: url(Icon-32.png) no-repeat 0 0 !important;
+	height:32px !important;
+	padding-left:34px !important;
+	padding-top: 8px !important;
+	margin: 32px 0px !important;
+	position:fixed !important;
+	bottom:-32px !important;
+	left:5px !important;
+	font-size: 24px !important;
+}
+#tweetOverlayText2 {
+	height: 14px !important;
+	margin: 17px 0px !important;
+	position:fixed !important;
+	bottom:-12px !important;
+	right:5px !important;
+	float:right !important;
+	font-size: 12px !important;
+}
+#tweetCloseButton {
+	background: url(images/closeButton.png) no-repeat 0 0 !important;
+	width: 30px !important;
+	height: 30px !important;
+	position: absolute !important;
+	cursor: pointer !important;
+}
+#tweetCloseButton:hover {
+	background-position: 0 -30px !important;
+}
+#thurlyButton {
+	z-index:1002 !important;
+	width: 32px !important;
+	height: 32px !important;
+	position: relative !important;
+	bottom: 42px !important;
+	left: 22px !important;
+	background: url(images/thurlyButton.png) no-repeat 0 0 !important;
+	cursor: pointer !important;
+}
+#thurlyButton:hover {
+	background-position: 0 -32px !important;
+}
+#tweetLoading {
+	height: 20px !important;
+	background: url(images/ajax-loader.gif) no-repeat 0 0 !important;
+	margin-left: 165px !important;
+	z-index:1000 !important;
+	position:relative !important;
+	bottom: 75px !important;
+}
+.bg-blue{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-blue.jpg) !important;}
+.bg-khaki{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-khaki.png) !important;}
+.bg-gray{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-gray.jpg) !important;}
+.bg-black-diamond{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-black-diamond.png) !important;}
+.bg-pink-diamond{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-pink-diamond.png) !important;}
+.bg-blue-diamond{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-blue-diamond.png) !important;}
+.bg-lime-diamond{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-lime-diamond.png) !important;}
+.bg-orange-diamond{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-orange-diamond.png) !important;}
+.bg-blue-weave{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-blue-weave.png) !important;}
+.bg-bp-dots{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-bp-dots.png) !important;}
+.bg-po-dots{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-po-dots.png) !important;}
+.bg-clouds{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-clouds.png) !important;}
+.bg-green-fish{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-green-fish.png) !important;}
+.bg-orange-fish{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-orange-fish.png) !important;}
+.bg-metal{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-metal.png) !important;}
+.bg-metal2{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-metal2.png) !important;}
+.bg-paper{background:#fbfbfb !important;background-repeat:repeat !important;background-image:url(images/bg-paper.png) !important;}
+.bg-safaritweet{background:#fbfbfb !important;background-image:url(images/bg-safaritweet.png) !important;}

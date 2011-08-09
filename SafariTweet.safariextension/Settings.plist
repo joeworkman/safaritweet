@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<string>Tweet This Webpage</string>
+		<key>Key</key>
+		<string>label</string>
+		<key>Title</key>
+		<string>Tweet Box Label</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>thurly</string>
+		<key>Key</key>
+		<string>urlService</string>
+		<key>Title</key>
+		<string>URL Shortening Service</string>
+		<key>Titles</key>
+		<array>
+			<string>Thurly</string>
+			<string>Ke-We</string>
+			<string>Is.gd</string>
+			<string>Bit.ly</string>
+			<string>J.mp</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>thurly</string>
+			<string>kewe</string>
+			<string>isgd</string>
+			<string>bitly</string>
+			<string>jmp</string>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string></string>
+		<key>Key</key>
+		<string>bitlyUser</string>
+		<key>Secure</key>
+		<false/>
+		<key>Title</key>
+		<string>bit.ly / j.mp Username</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string></string>
+		<key>Key</key>
+		<string>bitlyKey</string>
+		<key>Password</key>
+		<true/>
+		<key>Secure</key>
+		<false/>
+		<key>Title</key>
+		<string>bit.ly / j.mp API Key</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Separator</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Separator</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Look &amp; Feel</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>bg-safaritweet</string>
+		<key>Key</key>
+		<string>background</string>
+		<key>Title</key>
+		<string>Background Color</string>
+		<key>Titles</key>
+		<array>
+			<string>SafariTweet</string>
+			<string>Blue</string>
+			<string>Gray</string>
+			<string>Khaki Linen</string>
+			<string>Brushed Metal</string>
+			<string>Brushed Metal 2</string>
+			<string>Black Diamonds</string>
+			<string>Pink Diamonds</string>
+			<string>Blue Diamonds</string>
+			<string>Lime Diamonds</string>
+			<string>Black Diamonds</string>
+			<string>Crumpled Paper</string>
+			<string>Blue Weave</string>
+			<string>Blue &amp; Purple Dots</string>
+			<string>Pink &amp; Orange Dots</string>
+			<string>Green Fish</string>
+			<string>Orange Fish</string>
+			<string>Clouds</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>bg-safaritweet</string>
+			<string>bg-blue</string>
+			<string>bg-gray</string>
+			<string>bg-khaki</string>
+			<string>bg-metal</string>
+			<string>bg-metal2</string>
+			<string>bg-black-diamond</string>
+			<string>bg-pink-diamond</string>
+			<string>bg-blue-diamond</string>
+			<string>bg-lime-diamond</string>
+			<string>bg-orange-diamond</string>
+			<string>bg-paper</string>
+			<string>bg-blue-weave</string>
+			<string>bg-bp-dots</string>
+			<string>bg-po-dots</string>
+			<string>bg-green-fish</string>
+			<string>bg-orange-fish</string>
+			<string>bg-clouds</string>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>#fff</string>
+		<key>Key</key>
+		<string>borderColor</string>
+		<key>Title</key>
+		<string>Border Color</string>
+		<key>Titles</key>
+		<array>
+			<string>White</string>
+			<string>Black</string>
+			<string>Light Grey</string>
+			<string>Dark Grey</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>#fff</string>
+			<string>#000</string>
+			<string>#999</string>
+			<string>#333</string>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<real>5</real>
+		<key>Key</key>
+		<string>borderSize</string>
+		<key>MaximumValue</key>
+		<real>10</real>
+		<key>Title</key>
+		<string>Border Size</string>
+		<key>Type</key>
+		<string>Slider</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>#333</string>
+		<key>Key</key>
+		<string>overlayColor</string>
+		<key>Title</key>
+		<string>Backdrop Color</string>
+		<key>Titles</key>
+		<array>
+			<string>White</string>
+			<string>Black</string>
+			<string>Light Grey</string>
+			<string>Dark Grey</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>#fff</string>
+			<string>#000</string>
+			<string>#999</string>
+			<string>#333</string>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<real>0.90000000000000002</real>
+		<key>Key</key>
+		<string>overlayOpacity</string>
+		<key>MaximumValue</key>
+		<real>1</real>
+		<key>StepValue</key>
+		<real>0.050000000000000003</real>
+		<key>Title</key>
+		<string>Backdrop Opacity</string>
+		<key>Type</key>
+		<string>Slider</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Separator</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Separator</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Advanced Color Options</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>advancedLayout</string>
+		<key>Title</key>
+		<string>Enable Advanced Settings (at own risk!)</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>Key</key>
+		<string>advancedOverlayColor</string>
+		<key>Title</key>
+		<string>Backdrop Color</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>Key</key>
+		<string>advancedBackground</string>
+		<key>Title</key>
+		<string>Background Color</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>Key</key>
+		<string>advancedBorderColor</string>
+		<key>Title</key>
+		<string>Border Color</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+</array>
+</plist>
